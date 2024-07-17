@@ -1,0 +1,176 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    background-color: brown;
+    padding: 20px;
+    text-align: center;
+}
+.container h4{
+    color: white;
+    font-weight: 600;
+    font-size:20px;
+}
+
+.container button {
+    background-color: darkblue;
+    border: none;
+    padding: 7px 10px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.container button:hover{
+    background-color: rgba(11, 11, 175, 0.829);
+}
+
+.container p {
+    color: white;
+    font-size: 20px;
+}
+
+.container p span {
+    background-color: darkgoldenrod;
+    border-radius: 10px;
+    padding: 3px 1px 3px 5px;
+}
+
+
+/* BMI Calculator */
+
+/* body {
+    background-color: darkslategray;
+    width: 100%;
+} */
+
+.bmi-calculator{
+    background-color: white;
+    padding:40px 25px;
+    width: 30%;
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 10px;
+    box-shadow: 1px 0px 5px 1px gray;
+}
+
+.bmi-calculator h4{
+    text-transform: uppercase;
+    color: #48b9df;
+    text-align: center;
+    font-size: 20px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+label {
+    color:rgb(151, 144, 144);
+    font-weight: 500;
+    font-size: 18px;
+}
+
+input{
+    border:1px solid lightgray;
+    border-radius: 5px;
+    padding: 4px;
+    outline: none;
+}
+
+.bmi-calculator button {
+    margin-top: 25px;
+    background-color: #48b9df;
+    border: none;
+    padding: 7px 10px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.bmi-calculator button:hover {
+    background-color: #23b1e0;
+}
+
+.result {
+    border: 1px solid #48b9df;
+    margin-top: 20px;
+    padding: 0 10px;
+    border-radius: 10px;
+}
+
+.result p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.result p:first-child {
+    color: blue;
+}
+
+.result p:nth-child(2) {
+    color: chocolate;
+}
+
+.btn-flex{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.btn-flex button:nth-child(2){
+    background-color: crimson;
+}
+
+.btn-flex button:nth-child(2):hover {
+    background-color: rgb(233, 58, 93);
+}
+.bmi-calculator p{
+    color: red;
+    font-size: 16px;
+}
+
+
+
+/* Example CSS for Accordion */
+.accordion {
+    font-family: Arial, sans-serif;
+}
+
+.accordion-item {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.accordion-item h4 {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.accordion-item h4.active {
+    background-color: #ccc;
+}
+
+.accordion-item h6 {
+    margin-top: 5px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-left: 3px solid #4caf50;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.accordion-item h6.active {
+    display: block;
+}
