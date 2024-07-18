@@ -35,8 +35,10 @@ function Password() {
 
     function copytoClipboard() {
         navigator.clipboard.writeText(password);
-        if(password){
-            alert("Password Copied");
+        if(password===''){
+            alert("Genarate a Password");
+        }else {
+            alert("Password Copied")
         }
         setPassword('')
     }
