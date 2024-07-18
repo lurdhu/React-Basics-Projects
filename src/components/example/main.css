@@ -174,3 +174,82 @@ input{
 .accordion-item h6.active {
     display: block;
 }
+
+
+
+/* Password generator examples */
+.password-genarator {
+        background-color: #4caf50;
+        width: 40%;
+        margin: auto;
+        color: white;
+        border-radius: 10px;
+        margin-top: 50px;
+}
+
+.password-container {
+    padding: 10px 25px;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.input-group label {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.input-group input{
+    outline: none;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    padding: 10px 10px;
+}
+
+.checkbox-group {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.checkbox-group label{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.genarate-btn {
+    margin-top: 15px;
+    background-color: #23b1e0;
+    border: none;
+    padding: 7px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.genarate-password {
+    display: flex;
+    margin-top: 13px;
+}
+
+.genarate-password input {
+    flex:1;
+    outline: none;
+    padding: 5px;
+    background-color:bisque;
+   font-size: 20px;
+    font-weight: bold;
+}
+.genarate-password button {
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 10px;
+}

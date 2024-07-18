@@ -10,6 +10,7 @@ import Adviceapp from './components/example/Adviceapp';
 import BMIcalculator from './components/example/BMIcalculator';
 import Clock from './components/example/Clock';
 import Accordian from './components/example/Accordian';
+import Password from './components/example/Password';
 // import Useeffect from './components/home/UseEffect';
 
 function App() {
@@ -55,7 +56,8 @@ function App() {
  {/* <BMIcalculator /> */}
  {/* <Useeffect /> */}
  <Clock />
- <Accordian />
+ {/* <Accordian /> */}
+ <Password />
    </>
   );
 }
