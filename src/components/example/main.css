@@ -256,7 +256,7 @@ input{
 
 .quiz-app {
     background-color: white;
-    box-shadow: 1px 1px 4px 1px gray;
+    box-shadow: 1px 0px 4px 0px gray;
     width: 30%;
     border-radius: 10px;
     margin: auto;

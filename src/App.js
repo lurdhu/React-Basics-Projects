@@ -12,6 +12,7 @@ import Clock from './components/example/Clock';
 // import Accordian from './components/example/Accordian';
 // import Password from './components/example/Password';
 import Quiz from './components/example/Quiz';
+import Calender from './components/example/Calender';
 // import Useeffect from './components/home/UseEffect';
 
 function App() {
@@ -59,7 +60,8 @@ function App() {
  <Clock />
  {/* <Accordian /> */}
  {/* <Password /> */}
- <Quiz />
+ {/* <Quiz /> */}
+ <Calender />
    </>
   );
 }
