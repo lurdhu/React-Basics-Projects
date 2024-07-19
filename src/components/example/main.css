@@ -253,3 +253,69 @@ input{
     color: white;
     padding: 5px 10px;
 }
+
+.quiz-app {
+    background-color: white;
+    box-shadow: 1px 1px 4px 1px gray;
+    width: 30%;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.quiz-container{
+    padding: 20px 30px;
+    text-align: center;
+}
+
+.quiz-container h3 {
+    color: #23b1e0;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.quiz-container p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.quiz-container h4 {
+    font-size: 18px;
+}
+
+.quiz-option {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.quiz-option button {
+    background-color: #48b9df;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 15px;
+    cursor: pointer;
+    color: white;
+    font-size: 14px;
+}
+
+.restart {
+    background-color: tomato;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+}
+
+.timer {
+    font-size: 16px;
+    color: brown;
+}
+
+.timer span {
+    font-weight: bold;
+    color: black;
+}

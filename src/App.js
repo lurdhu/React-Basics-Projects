@@ -5,12 +5,13 @@ import Filter from './components/example/Filter';
 // import Home from './components/home/Home';
 // import Crud from './components/home/crud';
 // import Sample from './components/home/crudhome';
-import Profile from './components/example/ProfileCard';
-import Adviceapp from './components/example/Adviceapp';
-import BMIcalculator from './components/example/BMIcalculator';
+// import Profile from './components/example/ProfileCard';
+// import Adviceapp from './components/example/Adviceapp';
+// import BMIcalculator from './components/example/BMIcalculator';
 import Clock from './components/example/Clock';
-import Accordian from './components/example/Accordian';
-import Password from './components/example/Password';
+// import Accordian from './components/example/Accordian';
+// import Password from './components/example/Password';
+import Quiz from './components/example/Quiz';
 // import Useeffect from './components/home/UseEffect';
 
 function App() {
@@ -57,7 +58,8 @@ function App() {
  {/* <Useeffect /> */}
  <Clock />
  {/* <Accordian /> */}
- <Password />
+ {/* <Password /> */}
+ <Quiz />
    </>
   );
 }
