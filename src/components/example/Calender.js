@@ -43,7 +43,7 @@ function Calender() {
 
     return (
         <>
-           <button onClick={changebefore}>&lt;</button>
+           <button onClick={changebefore} className='bg-gray-200 p-2 rounded-sm'>&lt;</button>
             <select value={selectedDate.getMonth()} onChange={handleChangeMonth}>
                 {
                     month.map((month, index) => {
@@ -53,7 +53,7 @@ function Calender() {
                     })
                 }
             </select>
-            <select value={selectedDate.getFullYear()} onChange={handleChangeYear}>
+            <select value={selectedDate.getFullYear()} onChange={handleChangeYear} className='bg-teal-300'>
                 {
                     year.map((year, index) => {
                         return (
@@ -62,7 +62,7 @@ function Calender() {
                     })
                 }
             </select>
-            <button onClick={changeafter}>&gt;</button>
+            <button onClick={changeafter} className='bg-gray-200 p-2 rounded-sm'>&gt;</button>
             <div style={{display: 'grid', gridTemplateColumns: 'repeat(7, 1fr)' ,textAlign: 'center'}}>
                 {
                     week.map((weekday) => {

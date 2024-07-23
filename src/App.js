@@ -13,6 +13,8 @@ import Clock from './components/example/Clock';
 // import Password from './components/example/Password';
 import Quiz from './components/example/Quiz';
 import Calender from './components/example/Calender';
+import GrandParent from './components/home/Usecontext/GrandParent';
+import Darkmode from './components/example/Darkmode';
 // import Useeffect from './components/home/UseEffect';
 
 function App() {
@@ -61,7 +63,9 @@ function App() {
  {/* <Accordian /> */}
  {/* <Password /> */}
  {/* <Quiz /> */}
- <Calender />
+ {/* <Calender /> */}
+ <GrandParent />
+ <Darkmode />
    </>
   );
 }
